@@ -6,12 +6,12 @@
 ## 2. Окружение для тестирования
     - Аппаратная платформа: 4-ядерный процессор Intel Core i5, 16 GB RAM
     - ОС: Ubuntu 20.04 LTS
-    - JVM: OpenJDK 11
+    - JVM: OpenJDK 17
     - Библиотеки для сравнения:  
       • java.util.concurrent.Executors.newFixedThreadPool  
       • java.util.concurrent.Executors.newCachedThreadPool  
       • ThreadPoolExecutor с теми же параметрами  
-      • (по желанию) Tomcat 9 и Jetty 9 – встроенные конфигурации «executor»
+      • Tomcat 9 и Jetty 9 – встроенные конфигурации «executor»
 
 ## 3. Анализ производительности  
 ###   3.1 Методика замеров  
